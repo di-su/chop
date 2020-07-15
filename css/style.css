@@ -2,6 +2,36 @@ html {
   overflow-x: hidden;
 }
 
+.col-lg-12 {
+  display: none;
+}
+
+.menu-filter:hover {
+  opacity: 0.2;
+}
+
+.menu-filter {
+    color: #f9ae34 !important;
+    text-decoration: underline !important;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu-filter-div {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.red {
+  color: red;
+  font-size: 13px;
+  /*font-weight: bold;*/
+}
+
 body {
   font-family: "Raleway", sans-serif;
   background: #fff;
