@@ -2,6 +2,16 @@ $(document).ready(function($) {
 
 	"use strict";
 
+	function showAllMenu() {
+		var all = document.getElementsByClassName('menu-items');
+		for (var i = 0; i < all.length; i++) {
+			all[i].style.display = 'block';
+		}
+	}
+
+	const all = document.querySelector('#all');
+	all.addEventListener('click', showAllMenu);
+
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
